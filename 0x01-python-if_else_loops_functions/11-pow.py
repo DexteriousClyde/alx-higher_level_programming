@@ -7,4 +7,4 @@ def pow(a, b):
     else:
         for i in range(abs(b)):
             res *= 1/a
-    return res
+    return a ** b
