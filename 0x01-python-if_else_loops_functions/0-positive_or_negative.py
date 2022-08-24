@@ -7,5 +7,5 @@ if number > 0:
 elif number < 0:
 	str1 += "is negative"
 else:
-	str += "is zero"
+	str1 += "is zero"
 print(str1, end = '\n')
