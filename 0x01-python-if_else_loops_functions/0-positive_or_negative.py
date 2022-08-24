@@ -8,4 +8,4 @@ elif number < 0:
 	str1 += "is negative"
 else:
 	str += "is zero"
-print(str1 + '\n')
+print(str1, end = '\n')
