@@ -11,7 +11,7 @@ if __name__ == "__main__":
     arr = [add, sub, mul, div]
     for i, j in enumerate(mth):
         if argv[2] == j:
-            print("{} {} {} = {}".format(a, s, b, arr[i](a, b)))
+            print("{} {} {} = {}".format(a, j, b, arr[i](a, b)))
             break
     else:
         print("Unknown operator. Available operators: +, -, * and /")
