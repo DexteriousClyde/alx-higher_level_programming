@@ -3,7 +3,7 @@ def list_division(my_list_1, my_list_2, list_length):
     i = 0
     arr = []
     while i < list_length:
-        arr_element
+        arr_element = 0
         try:
             arr_element = my_list_1[i] / my_list_2[i]
         except TypeError:
